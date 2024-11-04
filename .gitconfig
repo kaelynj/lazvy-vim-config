@@ -1,0 +1,25 @@
+# Account Info
+[user]
+  name = Kaelyn Ferris
+  email = 43348706+kaelynj@users.noreply.github.com
+  # 1Password signing key
+  signingkey =  ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIBmuB3KXKSSvfGvewoMS+7kw5Y0GM+2/09/V6oQyajrv
+
+[core]
+  editor = nvim
+
+[init]
+  defaultBranch = main
+
+[github]
+  user = "kaelynj"
+
+[commit]
+  gpgsign = true
+
+[gpg]
+  format = ssh
+
+[gpg "ssh"]
+  program = "/opt/1Password/op-ssh-sign"
+
